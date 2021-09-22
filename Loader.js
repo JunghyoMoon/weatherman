@@ -10,6 +10,8 @@ const Loader = () => {
     )
 }
 
+// RN에서, flexDirection의 디폴트는 'column'
+// layout 코딩에 활용할 수 있는 "flex" (일정 비율에 따르도록 설정?)
 const styles = StyleSheet.create({
     container: {
         flex: 1,
